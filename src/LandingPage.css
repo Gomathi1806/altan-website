@@ -1,0 +1,17 @@
+/* src/LandingPage.css */
+.landing-page {
+    background-image: url('https://3.bp.blogspot.com/-wLjxK9y47wg/UZ80QmvDaSI/AAAAAAAAACI/AZFXxaeALdc/s1600/9_Lion+HD+Wallpapers.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   }
+   
+   .landing-content {
+    text-align: center;
+   }
+   
