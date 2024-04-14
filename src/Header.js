@@ -11,16 +11,16 @@ const Header = () => {
             <a href='#home'>Home</a>
           </li>
           <li>
-            <a href='#about'>About Us</a>
+            <a href='#about'>All About AiNGEL</a>
           </li>
           <li>
-            <a href='#contact'>Contact Us</a>
+            <a href='#contact'>Knowledge</a>
           </li>
           <li>
-            <a href='#signin'>Sign In</a>
+            <a href='#home'>Research</a>
           </li>
           <li>
-            <a href='#signup'>Sign Up</a>
+            <a href='#about'>Contact</a>
           </li>
         </ul>
       </nav>

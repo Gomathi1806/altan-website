@@ -1,13 +1,22 @@
-/* src/Footer.css */
+/* src/Header.css */
 .footer {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
+    background-color: None;
+    color: transparent;
+    padding: 1em;
+   }
+   
+   .footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Georgia, serif;
    }
    
    .footer a {
     color: white;
     text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
    }
-   

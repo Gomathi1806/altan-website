@@ -1,17 +1,44 @@
 /* src/LandingPage.css */
 .landing-page {
-    background-image: url('https://3.bp.blogspot.com/-wLjxK9y47wg/UZ80QmvDaSI/AAAAAAAAACI/AZFXxaeALdc/s1600/9_Lion+HD+Wallpapers.jpg');
+    background-image: url('../public/images/background.jpg');
     background-size: cover;
     background-position: center;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
+    background-repeat: no-repeat;
+    height: 80vh;
+    margin: 0;
+    color: white; /* Adjust text color as needed */
+    font-size: medium; /* Adjust font size as needed */
+    font-weight: normal; /* Adjust font weight as needed */
+    padding: 50px; /* Add padding for spacing around the text */
    }
-   
+
    .landing-content {
-    text-align: center;
+    position: relative;
+    text-align: left;
+    padding: 5px; /* Add padding for spacing around the text */
+    font-size: 3rem;
    }
+
+.top-left-image {
+    align-items: center;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    transform: translate(1px, 0.5%);
+    background-image: url('../public/images/top-left-corner-logo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 115px; /* Adjust size as needed */
+    height: 85px; /* Adjust size as needed */
+}
+.middle-right-image {
+    position: absolute;
+    top: 8%;
+    right: 0;
+    background-image: url('../public/images/photo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px; /* Adjust size as needed */
+    height: 300px; /* Adjust size as needed */
+}
    

@@ -5,17 +5,22 @@ import './Footer.css' // You'll create this CSS file
 const Footer = () => {
   return (
     <footer className='footer'>
-      <div>
-        <a href='#about'>About Us</a>
-        <a href='#contact'>Contact Us</a>
-        <input type='checkbox' id='joinWaitlist' name='joinWaitlist' />
-        <label htmlFor='joinWaitlist'>Join Waitlist</label>
-        <button>Join</button>
-      </div>
-      <p>&copy; 2024 My Website. All rights reserved.</p>
+      <nav>
+        <ul>
+          <li>
+            <a href='#termsAndConditions'>Terms and Conditions</a>
+          </li>
+          <li>
+            <a href='#becomeAGameChanger'>Become a Game Changers</a>
+          </li>
+          <li>
+            <a href='#privacyPolicy'>Privacy Policy</a>
+          </li>
+        </ul>
+      </nav>
     </footer>
   )
-  // Add this inside the Footer component, before the closing </footer> tag
 }
 
 export default Footer
+
