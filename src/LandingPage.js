@@ -5,6 +5,8 @@ import Header from './Header'
 import Footer from './Footer'
 import SpeechRecognition from './SpeechRecognition';
 import TextToSpeech from './TextToSpeech';
+import middlePicture from './images/page1photo.jpg'; // Import the image
+
 
 const LandingPage = () => {
   const [transcript, setTranscript] = useState('')
@@ -20,18 +22,19 @@ const LandingPage = () => {
   return (
     <div className='landing-page'>
       <Header />
-      <div className='top-left-image'></div>
-      <div className='landing-content'>
-        <p>AiNGEL: Your Voice First</p>
-        <p>Virtual Companion for a</p>
-        <p>Healthier Life</p>
-        <div className='middle-right-image'></div>
-        <h1>Speech Recognition</h1>
+      <main className="main">
+        <section className="section1">
+          <h3>AiNGEL: Your Voice First</h3>
+          <h3>Virtual Companion for a </h3>
+          <h3>Healthier Life</h3>
+        </section>
+        <section className="section2">
+        <img src={middlePicture} alt='logo' />
+        </section>
+        </main>
+        <main className='main'>
       <SpeechRecognition />
-
-      <h1>Text to Speech</h1>
-      <TextToSpeech text="what is the time now" />
-      </div>
+      </main>
       <Footer />
     </div>
   )

@@ -1,10 +1,14 @@
 // src/Header.js
 import React from 'react'
 import './Header.css' // You'll create this CSS file
+import logo from './images/page1leftlogo.jpg'; // Import the image
 
 const Header = () => {
   return (
     <header className='header'>
+      <div class="logo">
+            <img src={logo} alt="Logo"/>
+        </div>
       <nav>
         <ul>
           <li>
