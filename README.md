@@ -1,4 +1,4 @@
-# AiNGEL  Website
+# AiNGEL Website
 
 ### This website uses ReactJs, NPM and its Libraries
 
