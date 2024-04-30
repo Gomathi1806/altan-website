@@ -24,10 +24,10 @@ const SpeechRecognitionComponent = () => {
 
   return (
     <div>
-      <p>{transcript}</p>
       <section className="section3">
       <input type="text" placeholder="Write or Speak To Me..." className='textbox-section' value={transcript} readOnly/>
       <img src={MicrophoneIcon} alt="Microphone" className="icon" onClick={handleStartListening} />
+      <img src={VideoIcon} alt="videoIcon" className="videoicon" onClick={handleStartListening} />
       </section>
     </div>
   );

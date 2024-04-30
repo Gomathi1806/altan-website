@@ -4,12 +4,11 @@ import './LandingPage.css' // You'll create this CSS file
 import Header from './Header'
 import Footer from './Footer'
 import SpeechRecognition from './SpeechRecognition';
-import TextToSpeech from './TextToSpeech';
 import middlePicture from './images/page1photo.jpg'; // Import the image
 
 
 const LandingPage = () => {
-  const [transcript, setTranscript] = useState('')
+  const [setTranscript] = useState('')
 
   const startRecognition = () => {
     const recognition = new window.SpeechRecognition()

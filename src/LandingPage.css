@@ -20,19 +20,15 @@
     margin: 20px;
     padding: 10px;
     display: block;
-    font-weight: 700;
-    font-style: normal;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
     font-size: 66.6661px;
     line-height: 79px;
-    letter-spacing: 0.002em;
     --para-spacing: 0;
-    text-transform: none;
     --head-indent: 0;
     --numeric-list-marker: none;
     list-style-type: none;
-    text-align: left;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    text-decoration: none;
 }
 
 .section2 img {
@@ -67,6 +63,7 @@
     height: 30px;
     display: flex;
     font-size: x-large;
+    overflow-y: scroll;
 }
 
 .icon {
