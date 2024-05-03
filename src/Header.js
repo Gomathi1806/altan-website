@@ -28,6 +28,8 @@ const Header = () => {
           </li>
         </ul>
       </nav>
+      <button class="btn sign-in">SIGN IN</button>
+      <button class="btn sign-up">SIGN UP</button>
     </header>
   )
 }

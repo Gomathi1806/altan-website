@@ -53,42 +53,42 @@
     line-height: 79px;
     letter-spacing: 0.002em;
     text-transform: none;
+    position: relative;
+    left: 1%;
+    top: 70%;
 }  
 
 .textbox-section {
     padding: 10px 40px 10px 10px; /* Adjust padding for icon placement */
     border: 1px solid #ccc;
     border-radius: 5px;
-    width: 500px;
+    width: 505px;
     height: 30px;
     display: flex;
     font-size: x-large;
     overflow-y: scroll;
-    position: absolute;
+    position: relative;
     left: 1%;
-    top: 90%;
+    top: -1%;
 }
 
 .icon {
-    position: absolute;
-    left: 31%;
-    top: 93%;
-    transform: translateY(-50%);
+    left: 115%;
     width: 30px;
     height: 40px;
     cursor: pointer;
     position: absolute;
+    top: 13px; /* Adjust based on your layout needs */
+    right: 10px; /* Aligns the icon to the right */
 }
+
 .videoicon {
-    position: absolute;
-    left: 34%;
-    top: 93%;
-    transform: translateY(-50%);
-    width: 35px;
+    left: 123%;
+    width: 30px;
     height: 40px;
     cursor: pointer;
     position: absolute;
-    left: 25;
-    top: 5;
+    top: 13px; /* Adjust based on your layout needs */
+    right: 10px; /* Aligns the icon to the right */
 }
       

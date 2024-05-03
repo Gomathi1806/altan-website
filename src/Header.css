@@ -40,3 +40,25 @@ nav a:hover {
     height: 100px; /* Maintain aspect ratio */
     margin-right: 0; /* Add space between logo and navigation */
 }
+
+.btn {
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .sign-in {
+    background: linear-gradient(0deg, rgba(244, 88, 0, 0.576) 0%, rgb(0, 232, 204) 33.333%, rgb(2, 67, 105) 66.667%, rgb(0, 59, 93) 100%);
+    color: white;
+  }
+  
+  .sign-up {
+    background: linear-gradient(0deg, rgba(244, 88, 0, 0.576) 0%, rgb(0, 232, 204) 33.333%, rgb(2, 67, 105) 66.667%, rgb(0, 59, 93) 100%);
+    color: white;
+  }
