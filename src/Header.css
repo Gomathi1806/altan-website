@@ -36,7 +36,7 @@ nav a:hover {
 }
 
 .logo img {
-    width: 15px; /* Set width of the logo */
-    height: 15px; /* Maintain aspect ratio */
+    width: 100px; /* Set width of the logo */
+    height: 100px; /* Maintain aspect ratio */
     margin-right: 0; /* Add space between logo and navigation */
 }
