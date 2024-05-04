@@ -1,0 +1,30 @@
+
+.container {
+    background: linear-gradient(135deg, rgba(244, 88, 0, 0.576) 0%, rgb(0, 232, 204) 33.333%, rgb(2, 67, 105) 66.667%, rgb(0, 59, 93) 100%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: transparent;
+    margin:0;
+    top: 0%;
+    height: 100vh;
+  }
+  
+  .text-container {
+    margin: 20px;
+    padding: 10px;
+    font-size: 66.6661px;
+    line-height: 79px;
+    color: white;
+    width: 25%;
+    text-align: center;
+    max-width: 90%;
+    height: 70%;
+    text-align: right;
+  }
+  
+  .image-container img {
+    max-width: 90%;
+    height: 70%;
+    flex-basis: 45%;
+  }

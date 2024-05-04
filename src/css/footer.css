@@ -1,0 +1,22 @@
+/* src/Header.css */
+.footer {
+    background: linear-gradient(135deg, rgba(244, 88, 0, 0.576) 0%, rgb(0, 232, 204) 33.333%, rgb(2, 67, 105) 66.667%, rgb(0, 59, 93) 100%);
+    color: transparent;
+    padding: 1px;
+   }
+   
+   .footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Georgia, serif;
+   }
+   
+   .footer a {
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+   }
